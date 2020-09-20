@@ -10,7 +10,7 @@ setInterval(startcookie, 2000);
 //Roll the ads
 var ss = document.getElementById("smallSupport");
 while (ss.hasChildNodes()) {  
-  ss.removeChild(list.firstChild);
+  ss.removeChild(ss.firstChild);
 }
 var img = document.createElement('img'); 
             img.src =  
