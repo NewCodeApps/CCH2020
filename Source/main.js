@@ -35,7 +35,7 @@ var img = document.createElement('img');
 
 // Add control panel
 // remove ads for panel
-var s = document.getElementById("smallSupport");
+var s = document.getElementById("support");
 while (s.hasChildNodes()) {  
   s.removeChild(s.firstChild);
 } 
@@ -45,7 +45,7 @@ var link = document.createTextNode("Give 10 cookies every 1 sec");
  a.appendChild(link);
 a.title = "Give 10 cookies every 1 sec";
 a.href = "javascript:var sc10=setInterval(startcookie10,1000)";    
-document.getElementById("Support").appendChild(a);
+document.getElementById("support").appendChild(a);
 
 //make 100 cookies every 1 sec
 var a1 = document.createElement('a');
@@ -53,7 +53,7 @@ var link1 = document.createTextNode("Give 100 cookies every 1 sec");
  a1.appendChild(link1);
 a1.title = "Give 100 cookies every 1 sec";
 a1.href = "javascript:var sc100=setInterval(startcookie100,1000)";    
-document.getElementById("Support").appendChild(a1);
+document.getElementById("support").appendChild(a1);
 
 //make 1000 cookies every 1 sec
 var a11 = document.createElement('a');
@@ -61,4 +61,4 @@ var link11 = document.createTextNode("Give 1000 cookies every 1 sec");
  a11.appendChild(link11);
 a11.title = "Give 1000 cookies every 1 sec";
 a11.href = "javascript:var sc1000=setInterval(startcookie1000,1000)";    
-document.getElementById("Support").appendChild(a11);
+document.getElementById("support").appendChild(a11);
