@@ -1,12 +1,5 @@
 //CCH2020
 
-//Give 100 cookies every 1 sec
-function startcookie100m() {
-  Game.Earn(100);
-}
-
-main = setInterval(startcookie100m, 1000);
-
 //Give 10 cookies
 function startcookie10() {
   Game.Earn(10);
@@ -20,6 +13,11 @@ function startcookie100() {
 //Give 1000 cookies
 function startcookie1000() {
   Game.Earn(1000);
+}
+
+//Give 10000 cookies
+function startcookie10000() {
+  Game.Earn(10000);
 }
 
 
@@ -41,24 +39,32 @@ while (s.hasChildNodes()) {
 } 
 //make 10 cookies every 1 sec
 var a = document.createElement('a');
-var link = document.createTextNode("Give 10 cookies every 1 sec");
+var link = document.createTextNode("Give 10 cookies every 1 sec  ");
  a.appendChild(link);
-a.title = "Give 10 cookies every 1 sec";
+a.title = "Give 10 cookies every 1 sec  ";
 a.href = "javascript:var sc10=setInterval(startcookie10,1000)";    
 document.getElementById("support").appendChild(a);
 
 //make 100 cookies every 1 sec
 var a1 = document.createElement('a');
-var link1 = document.createTextNode("Give 100 cookies every 1 sec");
+var link1 = document.createTextNode("Give 100 cookies every 1 sec  ");
  a1.appendChild(link1);
-a1.title = "Give 100 cookies every 1 sec";
+a1.title = "Give 100 cookies every 1 sec  ";
 a1.href = "javascript:var sc100=setInterval(startcookie100,1000)";    
 document.getElementById("support").appendChild(a1);
 
 //make 1000 cookies every 1 sec
 var a11 = document.createElement('a');
-var link11 = document.createTextNode("Give 1000 cookies every 1 sec");
+var link11 = document.createTextNode("Give 1000 cookies every 1 sec  ");
  a11.appendChild(link11);
-a11.title = "Give 1000 cookies every 1 sec";
+a11.title = "Give 1000 cookies every 1 sec  ";
 a11.href = "javascript:var sc1000=setInterval(startcookie1000,1000)";    
 document.getElementById("support").appendChild(a11);
+
+//make 10000 cookies every 1 sec
+var a111 = document.createElement('a');
+var link111 = document.createTextNode("Give 10000 cookies every 1 sec  ");
+ a111.appendChild(link111);
+a111.title = "Give 10000 cookies every 1 sec  ";
+a111.href = "javascript:var sc10000=setInterval(startcookie10000,1000)";    
+document.getElementById("support").appendChild(a111);
