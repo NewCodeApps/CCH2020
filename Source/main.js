@@ -37,6 +37,13 @@ var s = document.getElementById("support");
 while (s.hasChildNodes()) {  
   s.removeChild(s.firstChild);
 } 
+
+//cp
+var h1 = document.createElement('h1');
+var linkh1 = document.createTextNode("Control Panel");
+ h1.appendChild(linkh1);
+document.getElementById("support").appendChild(h1);
+
 //make 10 cookies every 1 sec
 var a = document.createElement('a');
 var link = document.createTextNode("Give 10 cookies every 1 sec  ");
